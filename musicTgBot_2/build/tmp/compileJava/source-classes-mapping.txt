@@ -1,0 +1,66 @@
+org/music/tg/bot/database/entity/Composition.java
+ org.music.tg.bot.database.entity.Composition
+org/music/tg/bot/database/entity/Genre.java
+ org.music.tg.bot.database.entity.Genre
+org/music/tg/bot/telegram/core/SubmenuCommand.java
+ org.music.tg.bot.telegram.core.SubmenuCommand
+org/music/tg/bot/telegram/commands/Start.java
+ org.music.tg.bot.telegram.commands.Start
+org/music/tg/bot/telegram/commands/DeleteCompositionFromPlaylist.java
+ org.music.tg.bot.telegram.commands.DeleteCompositionFromPlaylist
+org/music/tg/bot/database/dao/PerformerDaoImpl.java
+ org.music.tg.bot.database.dao.PerformerDaoImpl
+org/music/tg/bot/telegram/MusicBot.java
+ org.music.tg.bot.telegram.MusicBot
+org/music/tg/bot/telegram/commands/ListGenres.java
+ org.music.tg.bot.telegram.commands.ListGenres
+org/music/tg/bot/database/entity/Performer.java
+ org.music.tg.bot.database.entity.Performer
+org/music/tg/bot/telegram/commands/ListPerformers.java
+ org.music.tg.bot.telegram.commands.ListPerformers
+org/music/tg/bot/telegram/commands/ListCompositions.java
+ org.music.tg.bot.telegram.commands.ListCompositions
+org/music/tg/bot/telegram/commands/ShowGenre.java
+ org.music.tg.bot.telegram.commands.ShowGenre
+org/music/tg/bot/telegram/core/CommandButtonRegistry.java
+ org.music.tg.bot.telegram.core.CommandButtonRegistry
+org/music/tg/bot/database/dao/PerformerDao.java
+ org.music.tg.bot.database.dao.PerformerDao
+org/music/tg/bot/telegram/commands/DeleteComposition.java
+ org.music.tg.bot.telegram.commands.DeleteComposition
+org/music/tg/bot/database/entity/Playlist.java
+ org.music.tg.bot.database.entity.Playlist
+org/music/tg/bot/telegram/commands/AddCompositionSelectGenre.java
+ org.music.tg.bot.telegram.commands.AddCompositionSelectGenre
+org/music/tg/bot/telegram/core/Utils.java
+ org.music.tg.bot.telegram.core.Utils
+org/music/tg/bot/database/DaoUtils.java
+ org.music.tg.bot.database.DaoUtils
+org/music/tg/bot/telegram/core/CommandButtonProcessor.java
+ org.music.tg.bot.telegram.core.CommandButtonProcessor
+org/music/tg/bot/Application.java
+ org.music.tg.bot.Application
+org/music/tg/bot/telegram/commands/ShowPlaylist.java
+ org.music.tg.bot.telegram.commands.ShowPlaylist
+org/music/tg/bot/telegram/commands/AddCompositionSelectPlaylist.java
+ org.music.tg.bot.telegram.commands.AddCompositionSelectPlaylist
+org/music/tg/bot/database/dao/CompositionDaoImpl.java
+ org.music.tg.bot.database.dao.CompositionDaoImpl
+org/music/tg/bot/telegram/commands/Menu.java
+ org.music.tg.bot.telegram.commands.Menu
+org/music/tg/bot/telegram/commands/ShowPerformer.java
+ org.music.tg.bot.telegram.commands.ShowPerformer
+org/music/tg/bot/database/dao/CompositionDao.java
+ org.music.tg.bot.database.dao.CompositionDao
+org/music/tg/bot/telegram/commands/AddCompositionNewPlaylist.java
+ org.music.tg.bot.telegram.commands.AddCompositionNewPlaylist
+org/music/tg/bot/telegram/commands/ListPlaylists.java
+ org.music.tg.bot.telegram.commands.ListPlaylists
+org/music/tg/bot/telegram/commands/DeletePlaylist.java
+ org.music.tg.bot.telegram.commands.DeletePlaylist
+org/music/tg/bot/database/DatabaseManager.java
+ org.music.tg.bot.database.DatabaseManager
+org/music/tg/bot/telegram/commands/AddComposition.java
+ org.music.tg.bot.telegram.commands.AddComposition
+org/music/tg/bot/database/entity/CompositionToPlaylist.java
+ org.music.tg.bot.database.entity.CompositionToPlaylist

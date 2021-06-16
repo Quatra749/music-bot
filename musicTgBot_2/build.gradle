@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(16)
+    }
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
+// package id
+group 'org.music.tg.bot'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    mavenLocal() // use local ~/.m2/ cache as a valid repository
+}
+
+// dependencies, library need for project
+dependencies {
+    implementation 'com.github.pengrad:java-telegram-bot-api:5.1.0'
+    implementation 'com.h2database:h2:1.4.200'
+    implementation 'com.j256.ormlite:ormlite-jdbc:5.5'
+}
+
+test {
+    useJUnitPlatform()
+}
